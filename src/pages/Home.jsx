@@ -201,9 +201,12 @@ export default function Home() {
 
         /* Tentang / Sejarah */
         .tentang-grid {
-          display: grid; grid-template-columns: 1fr 1fr;
-          gap: 60px; align-items: center;
-        }
+            display: grid; 
+            grid-template-columns: 1fr 1fr;
+            gap: 40px; 
+            align-items: center;
+            margin-top: 16px;
+          }
         .tentang-text { font-size: 1.05rem; line-height: 1.9; color: #3a5450; }
         .tentang-visual {
           background: linear-gradient(135deg, ${C.dark}, ${C.accent});
