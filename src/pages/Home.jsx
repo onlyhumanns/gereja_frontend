@@ -464,7 +464,7 @@ export default function Home() {
       <section id="tentang">
        <section id="tentang">
         <div className="section">
-          <p className="section-label">Siapa Kami</p>
+         <p className="section-label">Siapa Kami</p>
           <h2 className="section-title heading">Tentang Gereja</h2>
           <div className="divider"/>
           <div className="tentang-grid">
@@ -472,26 +472,27 @@ export default function Home() {
               <p className="tentang-text">{SEJARAH}</p>
             </div>
             <div className="tentang-visual" style={{ padding: 0, overflow: "hidden", borderRadius: "12px", boxShadow: "0 8px 32px rgba(0,0,0,0.15)", position: "relative" }}>
-  <img
-    src="https://jkfhgkdrmzehvcaozesa.supabase.co/storage/v1/object/public/galeri/galeri_1779769046159.jpeg"
-    alt="Tentang Gereja"
-    style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }}
-  />
-  <div style={{
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    background: "linear-gradient(to top, rgba(0,0,0,0.65), transparent)",
-    padding: "40px 24px 24px",
-    color: "white",
-    textAlign: "center"
-  }}>
-    <p style={{ fontFamily:"'Playfair Display',serif", fontSize:"1.15rem", fontStyle:"italic", margin: 0 }}>
-      "Bertumbuh dalam Iman, Melayani dalam Kasih"
-    </p>
-  </div>
-</div>
+              <img
+                src="https://jkfhgkdrmzehvcaozesa.supabase.co/storage/v1/object/public/galeri/galeri_1779769046159.jpeg"
+                alt="Tentang Gereja"
+                style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }}
+              />
+              <div style={{
+                position: "absolute",
+                bottom: 0,
+                left: 0,
+                right: 0,
+                background: "linear-gradient(to top, rgba(0,0,0,0.65), transparent)",
+                padding: "40px 24px 24px",
+                color: "white",
+                textAlign: "center"
+              }}>
+                <p style={{ fontFamily:"'Playfair Display',serif", fontSize:"1.15rem", fontStyle:"italic", margin: 0 }}>
+                  "Bertumbuh dalam Iman, Melayani dalam Kasih"
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
