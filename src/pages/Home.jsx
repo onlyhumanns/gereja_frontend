@@ -471,12 +471,16 @@ export default function Home() {
             <div>
               <p className="tentang-text">{SEJARAH}</p>
             </div>
-            <div className="tentang-visual">
-              <div className="big">✝</div>
-              <p style={{ fontFamily:"'Playfair Display',serif", fontSize:"1.1rem", marginTop:16 }}>
-                "Bertumbuh dalam Iman,<br/>Melayani dalam Kasih"
-              </p>
-            </div>
+            <div className="tentang-visual" style={{ padding: 0, overflow: "hidden" }}>
+  <img
+    src="https://jkfhgkdrmzehvcaozesa.supabase.co/storage/v1/object/public/galeri/galeri_1779769046159.jpeg"
+    alt="Tentang Gereja"
+    style={{ width: "100%", height: "350px", objectFit: "cover", borderRadius: "4px" }}
+  />
+  <p style={{ fontFamily:"'Playfair Display',serif", fontSize:"1.1rem", marginTop:16, textAlign:"center", color:"#1a3a3a" }}>
+    "Bertumbuh dalam Iman,<br/>Melayani dalam Kasih"
+  </p>
+</div>
           </div>
         </div>
       </section>
