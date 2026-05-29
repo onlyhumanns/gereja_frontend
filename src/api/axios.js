@@ -5,7 +5,6 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000/api",
 });
 
-// Interceptor untuk tambah token otomatis
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem("token");
@@ -17,7 +16,6 @@ api.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Handle response error (token expired)
 api.interceptors.response.use(
   (response) => response,
   (error) => {
